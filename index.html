@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mumbai Indians - IPL Champions</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <!-- Header with Logo and Navigation -->
+    <header class="header">
+        <div class="header-container">
+            <div class="logo">
+                <div class="logo-container">
+                    <img src="mi_logo.jpg" alt="Mumbai Indians Logo" class="logo-img">
+                </div>
+                <span class="logo-text">Mumbai Indians</span>
+            </div>
+            
+            <nav class="navigation">
+                <ul class="nav-list">
+                    <li><a href="#" class="nav-link active" data-section="home">Home</a></li>
+                    <li><a href="#" class="nav-link" data-section="fixtures-results">Fixture & Result</a></li>
+                    <li><a href="#" class="nav-link" data-section="players">Players</a></li>
+                    <li><a href="#" class="nav-link" data-section="statistics">Statistics</a></li>
+                    <li><a href="#" class="nav-link" data-section="news">News</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Content Container -->
+    <main class="main-container">
+        <!-- Home Section -->
+        <section id="home" class="section active">
+            <div class="section-title">
+                <h1>Our Championship Journey</h1>
+            </div>
+
+            <div class="slider-container">
+                <div class="slider-wrapper">
+                    <div class="slider">
+                        <div class="slide">
+                            <img src="mi_champions_2020.png" alt="IPL Victory 2020">
+                            <div class="slide-info">
+                                <h3>2020 - Fifth Title</h3>
+                                <p>Dynasty Continues</p>
+                            </div>
+                        </div>
+                        <div class="slide">
+                            <img src="ipl-19-final-mi.jpg" alt="IPL Victory 2019">
+                            <div class="slide-info">
+                                <h3>2019 - Fourth Title</h3>
+                                <p>Dominant Performance</p>
+                            </div>
+                        </div>
+                        <div class="slide">
+                            <img src="mumbai-indians_2017.jpg" alt="IPL Victory 2017">
+                            <div class="slide-info">
+                                <h3>2017 - Third Title</h3>
+                                <p>Back to Victory Lane</p>
+                            </div>
+                        </div>
+                        <div class="slide">
+                            <img src="mi-champions2015.jpg" alt="IPL Victory 2015">
+                            <div class="slide-info">
+                                <h3>2015 - Second Title</h3>
+                                <p>Rising to Glory</p>
+                            </div>
+                        </div>
+                        <div class="slide">
+                            <img src="mumbai-indians_2013.jpg" alt="IPL Victory 2013">
+                            <div class="slide-info">
+                                <h3>2013 - First Title</h3>
+                                <p>Champion's Debut</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Slider Controls -->
+                <button class="slider-btn prev-btn" aria-label="Previous slide">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <polyline points="15 18 9 12 15 6"></polyline>
+                    </svg>
+                </button>
+                <button class="slider-btn next-btn" aria-label="Next slide">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <polyline points="9 18 15 12 9 6"></polyline>
+                    </svg>
+                </button>
+
+                <!-- Slider Indicators -->
+                <div class="slider-indicators">
+                    <span class="indicator active" data-index="0"></span>
+                    <span class="indicator" data-index="1"></span>
+                    <span class="indicator" data-index="2"></span>
+                    <span class="indicator" data-index="3"></span>
+                    <span class="indicator" data-index="4"></span>
+                </div>
+            </div>
+
+            <!-- Championship Subtitle -->
+            <div class="championship-subtitle">
+                <span>5 Times IPL Champions</span>
+            </div>
+
+            <!-- MI Franchise Information -->
+            <div class="franchise-info">
+                <div class="info-content">
+                    <h2>About Mumbai Indians</h2>
+                    <p>
+                        Mumbai Indians, established in 2008, is one of the most successful franchises in the Indian Premier League. 
+                        Based in Mumbai, the team has won the IPL title five times (2013, 2015, 2017, 2019, 2020), making them 
+                        the most successful team in IPL history. Known for their consistent performances and star-studded lineup, 
+                        MI has produced legendary players and exciting cricket matches that captivate millions of fans worldwide.
+                    </p>
+                    <p>
+                        The franchise is owned by Reliance Industries and is managed by experienced cricket professionals. 
+                        Under the leadership of their captain and support staff, Mumbai Indians continues to maintain its 
+                        reputation as a powerhouse in T20 cricket. The team plays their home matches at the Wankhede Stadium, 
+                        one of India's most iconic cricket venues. MI's fan base, known as the "Blue Army," is among the most 
+                        passionate and dedicated in the league, supporting the team through every match with incredible enthusiasm 
+                        and energy.
+                    </p>
+                    <p>
+                        With a legacy of consistent excellence, Mumbai Indians has produced several international stars and has 
+                        been a breeding ground for talent in Indian cricket. The franchise's commitment to nurturing young players, 
+                        combined with their strategic acquisitions, has made them a formidable force in every IPL season. Their 
+                        iconic jersey of blue and gold represents the spirit of Mumbai and the aspirations of millions of cricket 
+                        lovers who support this magnificent team.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Fixtures & Results Section -->
+        <section id="fixtures-results" class="section">
+            <div class="section-title">
+                <h1>Fixtures & Results</h1>
+            </div>
+            
+            <div class="fixtures-results-container">
+                <!-- Upcoming Fixtures Tab -->
+                <div class="tab-buttons">
+                    <button class="tab-btn active" data-tab="fixtures">📅 Upcoming Fixtures</button>
+                    <button class="tab-btn" data-tab="results">📊 Recent Results</button>
+                </div>
+                
+                <!-- Fixtures Content -->
+                <div id="fixtures" class="tab-content active">
+                    <div class="content-placeholder">
+                        <p>🏏 Upcoming fixtures coming soon...</p>
+                    </div>
+                </div>
+                
+                <!-- Results Content -->
+                <div id="results" class="tab-content">
+                    <div class="content-placeholder">
+                        <p>📈 Recent results will be displayed here...</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Players Section -->
+        <section id="players" class="section">
+            <div class="section-title">
+                <h1>Player Profile</h1>
+            </div>
+            <div class="content-placeholder">
+                <p>👥 Squad information coming soon...</p>
+            </div>
+        </section>
+
+        <!-- Statistics Section -->
+        <section id="statistics" class="section">
+            <div class="section-title">
+                <h1>Team Statistics</h1>
+            </div>
+            <div class="content-placeholder">
+                <p>📈 Statistics will be loaded here...</p>
+            </div>
+        </section>
+
+        <!-- News Section -->
+        <section id="news" class="section">
+            <div class="section-title">
+                <h1>Latest News</h1>
+            </div>
+            <div class="content-placeholder">
+                <p>📰 News updates coming soon...</p>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="https://www.mumbaiindians.com/" target="_blank">Official Website</a></li>
+                        <li><a href="https://shop.mumbaiindians.com/" target="_blank">MI Shop</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Follow Us</h3>
+                    <div class="social-links">
+                        <a href="https://www.facebook.com/mumbaiindians" target="_blank" class="social-link">Facebook</a>
+                        <a href="https://twitter.com/mipaltan" target="_blank" class="social-link">Twitter</a>
+                        <a href="https://www.instagram.com/mumbaiindians/" target="_blank" class="social-link">Instagram</a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h3>Contact</h3>
+                    <p>Wankhede Stadium, Mumbai<br>Email: info@mumbaiindians.com</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Mumbai Indians. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
